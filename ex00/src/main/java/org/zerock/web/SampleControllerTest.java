@@ -18,7 +18,7 @@ import org.springframework.web.context.WebApplicationContext;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration
-@ContextConfiguration(locations= {"file:src/main/webapp/WEB-INF/spring/**/root-context.xml"})
+@ContextConfiguration(locations= {"file:src/main/webapp/WEB-INF/spring/**/*.xml"})
 public class SampleControllerTest {
 
 	private static final Logger logger = 
