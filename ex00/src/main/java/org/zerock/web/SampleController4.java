@@ -23,8 +23,8 @@ public class SampleController4 {
 	}
 	
 	@RequestMapping("/doF")
-	public void doF(@ModelAttribute(value="msg") String msg) {
-		logger.info("doF called................ "+msg);
+	public void doF(@ModelAttribute String msg) {
+		logger.info("doF called................ "+msg);	//ModelAttribute라서 바로 전달하기 때문에 출력안됨!
 
 	}
 
