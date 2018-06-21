@@ -7,7 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-<span>${productVO.name }</span>
+<span>${productVO.name }</span><!-- model에 넣은 객체의 이름이 아닌 클래스이름에서 앞자리를 소문자로 해서 출력 -->
 <span>${productVO.price }</span>
+<span>${memberVO.userid }</span>
+<span>${memberVO.userpw }</span>
+
 </body>
 </html>

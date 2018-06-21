@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>This is doA</h1>
+<h1>This is doA  ${ msg}</h1>
 </body>
 </html>

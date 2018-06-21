@@ -7,6 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<span>Hello ${msg}</span> 
+	<span>Hello ${msg}  </span> <!-- 전달받아 el로 출력, 별도의 getParameter 필요 없음 -->
+	<span>Hello ${mem.getUserid()}  </span> 
+	<span>Hello ${mem.getUserpw()}  </span> 
 </body>
 </html>
